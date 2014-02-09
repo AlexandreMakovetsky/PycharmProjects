@@ -191,15 +191,3 @@ print('Dwarf is in ' + _dwarfRoom)
 
 
 
-
-
-
-
-### when point total => 1,000 show gold is in room 5, get character and dwarf to meet outside cave
-### remove items from explore list after selected
-
-
-
-
-
-

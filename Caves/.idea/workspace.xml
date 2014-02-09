@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1e9bf282-814e-4934-b2f8-b70eb04ce878" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Caves2.0.py" afterPath="$PROJECT_DIR$/Caves2.0.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CavesV1.0.py" afterPath="$PROJECT_DIR$/CavesV1.0.py" />
     </list>
     <ignored path="Caves.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,44 +20,39 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="Caves2.0.py" pinned="false" current="true" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/Caves2.0.py">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="52" column="1" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.59090906" vertical-offset="0" max-vertical-offset="1335">
-                    <folding>
-                      <element signature="e#1835#2572#0" expanded="false" />
-                      <element signature="e#2603#2763#0" expanded="false" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="Caves" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="CavesV1.0.py" pinned="false" current="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CavesV1.0.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="34" selection-start="1672" selection-end="1672" vertical-scroll-proportion="0.971564" vertical-offset="0" max-vertical-offset="3165">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="CavesV1.0.py" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/CavesV1.0.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="60" column="0" selection-start="1151" selection-end="1151" vertical-scroll-proportion="-0.44549763" vertical-offset="1464" max-vertical-offset="2985">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="Caves2.0.py" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Caves2.0.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="86" column="18" selection-start="2210" selection-end="2210" vertical-scroll-proportion="0.29620853" vertical-offset="915" max-vertical-offset="2520">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -81,9 +76,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="142" />
     <option name="y" value="22" />
-    <option name="width" value="1090" />
+    <option name="width" value="2560" />
     <option name="height" value="1414" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -100,7 +94,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -111,7 +105,29 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Caves" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Caves" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Caves" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -126,7 +142,7 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.Caves2.0">
+  <component name="RunManager" selected="Python.CavesV1.0">
     <configuration default="false" name="CavesV1.0" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -290,8 +306,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.Caves2.0" />
-        <item index="1" class="java.lang.String" itemvalue="Python.CavesV1.0" />
+        <item index="0" class="java.lang.String" itemvalue="Python.CavesV1.0" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Caves2.0" />
       </list>
     </recent_temporary>
   </component>
@@ -342,23 +358,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="142" y="22" width="1090" height="1414" extended-state="0" />
+    <frame x="0" y="22" width="2560" height="1414" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843894" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24982357" sideWeight="0.6895262" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24046321" sideWeight="0.6892382" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24026363" sideWeight="0.6892382" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.91962904" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="212" y="22" width="810" height="775" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.91962904" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="330" y="424" width="1868" height="775" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -427,18 +443,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CavesV1.0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="34" selection-start="1672" selection-end="1672" vertical-scroll-proportion="0.971564" vertical-offset="0" max-vertical-offset="3165">
+        <state line="60" column="0" selection-start="1151" selection-end="1151" vertical-scroll-proportion="-0.44549763" vertical-offset="1464" max-vertical-offset="2985">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Caves2.0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="1" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.59090906" vertical-offset="0" max-vertical-offset="1335">
-          <folding>
-            <element signature="e#1835#2572#0" expanded="false" />
-            <element signature="e#2603#2763#0" expanded="false" />
-          </folding>
+        <state line="86" column="18" selection-start="2210" selection-end="2210" vertical-scroll-proportion="0.29620853" vertical-offset="915" max-vertical-offset="2520">
+          <folding />
         </state>
       </provider>
     </entry>
