@@ -183,6 +183,20 @@ def dwarfLocation():
         del _dwarfCurrentRoom[0]
 
 
+def dwarfItems():
+    if len(_dwarfCurrentRoom) != 0:
+        print(_dwarfItems)
+
+        _removeItem = random.choice(_dwarfItems)
+        print('Dwarf has lost his', _removeItem)
+        _dwarfCurrentItems.append(_removeItem)
+
+        _dwarfItems.remove(_removeItem)
+
+
+
+        print(_dwarfItems)
+
 ###GoThroughRooms
 explore()
 
@@ -194,8 +208,7 @@ dwarfLocation()
 print('dwarf is in', _dwarfCurrentRoom)
 print('{{{{{{{{}}}}}}}}', _compareCaves, len(_compareCaves))
 
-if len(_dwarfCurrentRoom) != 0:
-    print(_dwarfItems)
+dwarfItems()
 
 ###GoThroughRooms
 _exploreCaves = input('Are you ready to explore more rooms? Yes or No: ')
@@ -211,8 +224,7 @@ dwarfLocation()
 print('dwarf is in', _dwarfCurrentRoom)
 print('{{{{{{{{}}}}}}}}', _compareCaves, len(_compareCaves))
 
-if len(_dwarfCurrentRoom) != 0:
-    print(_dwarfItems)
+dwarfItems()
 
 ###GoThroughRooms
 exploreRooms = input('Are you ready to explore more rooms? Yes or No: ')
@@ -227,20 +239,9 @@ dwarfLocation()
 print('dwarf is in', _dwarfCurrentRoom)
 print('{{{{{{{{}}}}}}}}', _compareCaves, len(_compareCaves))
 
-
-def dwarfItems():
-    if len(_dwarfCurrentRoom) != 0:
-        print(_dwarfItems)
-
-        _removeItem = random.choice(_dwarfItems)
-        print(_removeItem)
-        _dwarfCurrentItems.append(_removeItem)
-
-        _dwarfItems.remove(_removeItem)
+dwarfItems()
 
 
-
-        print(_dwarfItems)
 
 print('\nThe MATRIX has you...')
 
@@ -249,8 +250,19 @@ print('\nThe MATRIX has you...')
 def foundGold():
     if sum(_pointsTotal) > 1000:
         print('You have found cave 11. You are rewarded with the Gold in this cave')
+
         _pointsTotal.append(_cave11[0])
+
         print('Spelunker Points Total', '|', sum(_pointsTotal), '|')
+
+        print(_dwarfCurrentItems)
+
+        print(_dwarfItems)
+
+        #_dwarfItems.append(_dwarfCurrentItems)
+
+
+
 
     exit()
 

@@ -28,8 +28,13 @@
       <file leaf-file-name="Caves2.0.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Caves2.0.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="239" column="0" selection-start="6748" selection-end="6748" vertical-scroll-proportion="0.81042653" vertical-offset="2559" max-vertical-offset="4290">
-              <folding />
+            <state line="265" column="0" selection-start="7129" selection-end="7129" vertical-scroll-proportion="0.9146919" vertical-offset="1482" max-vertical-offset="3135">
+              <folding>
+                <element signature="e#2627#4914#0" expanded="false" />
+                <element signature="e#4946#5107#0" expanded="false" />
+                <element signature="e#5135#5681#0" expanded="false" />
+                <element signature="e#5706#5983#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -320,18 +325,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="903" y="22" width="1379" height="1414" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908162" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843894" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24982357" sideWeight="0.6895262" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24926254" sideWeight="0.6895262" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24026363" sideWeight="0.6892382" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.91962904" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="17" y="22" width="863" height="1059" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.91962904" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="17" y="22" width="863" height="1059" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -370,7 +375,12 @@
     <entry file="file://$PROJECT_DIR$/Caves2.0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="23" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="2895">
-          <folding />
+          <folding>
+            <element signature="e#2627#4914#0" expanded="false" />
+            <element signature="e#4946#5107#0" expanded="false" />
+            <element signature="e#5135#5681#0" expanded="false" />
+            <element signature="e#5706#5983#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -425,8 +435,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Caves2.0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="239" column="0" selection-start="6748" selection-end="6748" vertical-scroll-proportion="0.81042653" vertical-offset="2559" max-vertical-offset="4290">
-          <folding />
+        <state line="265" column="0" selection-start="7129" selection-end="7129" vertical-scroll-proportion="0.9146919" vertical-offset="1482" max-vertical-offset="3135">
+          <folding>
+            <element signature="e#2627#4914#0" expanded="false" />
+            <element signature="e#4946#5107#0" expanded="false" />
+            <element signature="e#5135#5681#0" expanded="false" />
+            <element signature="e#5706#5983#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
