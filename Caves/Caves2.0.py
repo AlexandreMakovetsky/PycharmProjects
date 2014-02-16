@@ -20,11 +20,13 @@ _cave7 = [750, 'boxwork']
 _cave8 = [850, 'grotto']
 _cave9 = [950, 'crystals']
 _cave10 = [1500, 'jungle', 'monkeys', 'flying foxes']
-_cave11 = [1000, 'gold']
+_cave11 = [10000, 'gold']
 _caveSystem = ['Cave 1', 'Cave 2', 'Cave 3', 'Cave 4',
                'Cave 5', 'Cave 6', 'Cave 7', 'Cave 8', 'Cave 9', 'Cave 10']
 _caveFeatures = []
 _pointsTotal = []
+
+_enterCave11 = []
 
 ###Characters
 _character = ['c1', 'c2', 'c3']
@@ -44,7 +46,7 @@ def activateDwarf():
         _dwarfActivate.append(1)
 
     if sum(_dwarfActivate) == 1:
-        print('My name is', _dwarfCharacter, ', I am in this cave in search of Gold.', )
+        print('My name is', _dwarfCharacter, ', I am in this cave in search of Gold.')
 
 
 ###START GAME
@@ -181,7 +183,6 @@ def dwarfLocation():
         del _dwarfCurrentRoom[0]
 
 
-
 ###GoThroughRooms
 explore()
 
@@ -190,9 +191,12 @@ explorePointTotal()
 activateDwarf()
 dwarfLocation()
 
-
 print('dwarf is in', _dwarfCurrentRoom)
 print('{{{{{{{{}}}}}}}}', _compareCaves, len(_compareCaves))
+
+if len(_dwarfCurrentRoom) != 0:
+    print(_dwarfItems)
+
 ###GoThroughRooms
 _exploreCaves = input('Are you ready to explore more rooms? Yes or No: ')
 
@@ -204,9 +208,12 @@ activateDwarf()
 dwarfLocation()
 
 
-
 print('dwarf is in', _dwarfCurrentRoom)
 print('{{{{{{{{}}}}}}}}', _compareCaves, len(_compareCaves))
+
+if len(_dwarfCurrentRoom) != 0:
+    print(_dwarfItems)
+
 ###GoThroughRooms
 exploreRooms = input('Are you ready to explore more rooms? Yes or No: ')
 
@@ -217,14 +224,39 @@ explorePointTotal()
 activateDwarf()
 dwarfLocation()
 
-
 print('dwarf is in', _dwarfCurrentRoom)
 print('{{{{{{{{}}}}}}}}', _compareCaves, len(_compareCaves))
+
+
+def dwarfItems():
+    if len(_dwarfCurrentRoom) != 0:
+        print(_dwarfItems)
+
+        _removeItem = random.choice(_dwarfItems)
+        print(_removeItem)
+        _dwarfCurrentItems.append(_removeItem)
+
+        _dwarfItems.remove(_removeItem)
+
+
+
+        print(_dwarfItems)
 
 print('\nThe MATRIX has you...')
 
 
 
+def foundGold():
+    if sum(_pointsTotal) > 1000:
+        print('You have found cave 11. You are rewarded with the Gold in this cave')
+        _pointsTotal.append(_cave11[0])
+        print('Spelunker Points Total', '|', sum(_pointsTotal), '|')
+
+    exit()
+
+foundGold()
+
+print('\nThe MATRIX has you...')
 
 
 
