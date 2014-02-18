@@ -180,7 +180,8 @@ def dwarfLocation():
     if len(_dwarfCurrentRoom) > 1:
         del _dwarfCurrentRoom[0]
 
-    print('dwarf is in Cave', _dwarfCurrentRoom)
+    if len(_dwarfCurrentRoom) != 0:
+        print('dwarf is in Cave', _dwarfCurrentRoom)
 
 
 def dwarfItems():
@@ -193,7 +194,7 @@ def dwarfItems():
 
         _dwarfItems.remove(_removeItem)
 
-        print('\nDwarf has historical lost these items', _dwarfLostItems)
+        print('\nDwarf has historically lost these items', _dwarfLostItems)
 
 
 
@@ -282,9 +283,13 @@ dwarfItems()
 foundGold()
 
 
+###If user does not get 850 for points total to call foundGold() user has lost game
 
-
-
+if sum(_pointsTotal) < 850:
+    print('\nGame Over: Player did not find the Gold and the dwarf is very sad. \nIf you would like to play again '
+          'start the program over.')
+    print('Good Bye')
+    exit()
 
 
 
