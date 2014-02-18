@@ -3,7 +3,7 @@ __author__ = 'alexandermakovetsky'
 import random
 
 print('---' * 25)
-print('CAVES:SPELUNKING  V1.0')
+print('CAVES: SPELUNKING  V1.0')
 print('---' * 25)
 print('by VHS')
 print('---' * 25)
@@ -43,7 +43,7 @@ _xx = 1
 
 ###Determines when the Dwarf character is introduced
 def activateDwarf():
-    if sum(_pointsTotal) > 500:
+    if sum(_pointsTotal) > 300:
         _dwarfActivate.append(1)
 
     if sum(_dwarfActivate) == 1:
@@ -59,6 +59,7 @@ _startGame = input('Would you like to start Spelunking? Continue or Exit Game: '
 if _startGame in _exitGame:
     print('THIS GAME IS OVER')
     print('Please come back for V2.0')
+    exit()
 elif _startGame in _continue:
     print('Lets Rock')
 else:
@@ -98,6 +99,11 @@ def explore():
         _caveFeatures.append(_cave1[1:] + _cave2[1:] + _cave3[1:] + _cave4[1:] + _cave4[1:]
                              + _cave5[1:] + _cave6[1:] + _cave7[1:] + _cave8[1:] + _cave9[1:] + _cave10[1:])
         print('\nCave Features:', _caveFeatures[0])
+    else:
+        if _exploreCaves == 'No':
+            print('THIS GAME IS OVER')
+            print('Please come back for V2.0')
+            exit()
 
     _observeItem = input('\nWhich cave feature do you want to observe: ')
 
@@ -151,6 +157,8 @@ def explore():
         _characterCurrentRoom.clear()
 
 
+
+
 def explorePointTotal():
     if _exploreCaves == 'Yes':
         print('Spelunker Points Total', '|', sum(_pointsTotal), '|')
@@ -159,31 +167,25 @@ def explorePointTotal():
 
 
 def dwarfLocation():
-    #print(len(_dwarfCurrentRoom))
-
-    if sum(_pointsTotal) > 500:
+    if sum(_pointsTotal) > 300:
         _dwarfCurrentRoom.append(random.choice(_caveSystem))
-
-    #print(len(_dwarfCurrentRoom))
 
     if len(_dwarfCurrentRoom) > 1:
         del _dwarfCurrentRoom[0]
-
-    #print(len(_dwarfCurrentRoom))
 
     if _dwarfCurrentRoom in _compareCaves:
         _dwarfCurrentRoom.append(random.choice(_caveSystem))
         print('The Dwarf saw you in your cave, not having seen anyone for years, he got scared and ran away')
 
-    print('dwarf is in', _dwarfCurrentRoom)
-
     if len(_dwarfCurrentRoom) > 1:
         del _dwarfCurrentRoom[0]
+
+    print('dwarf is in Cave', _dwarfCurrentRoom)
 
 
 def dwarfItems():
     if len(_dwarfCurrentRoom) != 0:
-        print(_dwarfItems)
+        #print(_dwarfItems)
 
         _removeItem = random.choice(_dwarfItems)
         print('Dwarf has lost his', _removeItem)
@@ -192,30 +194,32 @@ def dwarfItems():
         _dwarfItems.remove(_removeItem)
 
         print('\nDwarf has historical lost these items', _dwarfLostItems)
-        print(_dwarfItems)
+
 
 
 def foundGold():
-    if sum(_pointsTotal) > 1000:
-        print('You have found cave 11. You are rewarded with the Gold in this cave')
+    if sum(_pointsTotal) > 850:
+        print('\nYou have found cave 11. You are rewarded with the Gold in this cave')
 
         _pointsTotal.append(_cave11[0])
 
-        print('Spelunker Points Total', '|', sum(_pointsTotal), '|')
+        print('\nSpelunker Points Total', '|', sum(_pointsTotal), '|')
 
         _dwarfItems.extend(_dwarfLostItems)
 
-        exit()
 
-
-def dwarfRemember():
-    if sum(_pointsTotal) > 1000:
         _dwarfItemsOriginal.sort()
         _dwarfItems.sort()
-    elif _dwarfItemsOriginal == _dwarfItems:
-        print('True')
-    else:
-        print('False')
+
+        if _dwarfItemsOriginal == _dwarfItems:
+            print('\nDwarf is so happy that you found the gold, that he has remembered and recovered all his items\n', _dwarfItems,
+                  '\nHe is now on his was to meet you')
+            print('Game Over - You have Mastered CAVES: SPELUNKING  V1.0')
+
+
+
+        exit()
+
 
 ###User input determines if user wants to continue to explore the rooms based on the features in the cave system
 _exploreCaves = input('\nAre you ready to explore more caves? Yes or No: ')
@@ -226,8 +230,9 @@ explore()
 explorePointTotal()
 activateDwarf()
 dwarfLocation()
+dwarfItems()
 foundGold()
-dwarfRemember()
+
 
 ###User input determines if user wants to continue to explore the rooms based on the features in the cave system
 _exploreCaves = input('\nAre you ready to explore more rooms? Yes or No: ')
@@ -237,8 +242,9 @@ explore()
 explorePointTotal()
 activateDwarf()
 dwarfLocation()
+dwarfItems()
 foundGold()
-dwarfRemember()
+
 
 
 ###User input determines if user wants to continue to explore the rooms based on the features in the cave system
@@ -249,8 +255,9 @@ explore()
 explorePointTotal()
 activateDwarf()
 dwarfLocation()
+dwarfItems()
 foundGold()
-dwarfRemember()
+
 
 ###User input determines if user wants to continue to explore the rooms based on the features in the cave system
 exploreRooms = input('\nAre you ready to explore more rooms? Yes or No: ')
@@ -260,10 +267,19 @@ explore()
 explorePointTotal()
 activateDwarf()
 dwarfLocation()
+dwarfItems()
 foundGold()
-dwarfRemember()
+
+###User input determines if user wants to continue to explore the rooms based on the features in the cave system
+exploreRooms = input('\nAre you ready to explore more rooms? Yes or No: ')
 
 
+explore()
+explorePointTotal()
+activateDwarf()
+dwarfLocation()
+dwarfItems()
+foundGold()
 
 
 
